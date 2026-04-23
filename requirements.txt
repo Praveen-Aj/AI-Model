@@ -1,0 +1,29 @@
+# Core dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+
+# Ollama client
+ollama>=0.1.7
+requests>=2.31.0
+
+# RAG system dependencies
+chromadb>=0.4.18
+sentence-transformers>=2.2.2
+numpy>=1.26.0
+
+# Code processing (optional - only if needed)
+# tree-sitter>=0.20.4
+# tree-sitter-python>=0.20.4
+# tree-sitter-javascript>=0.20.1
+# tree-sitter-typescript>=0.20.3
+
+# Utilities
+pyyaml>=6.0.1
+tqdm>=4.66.1
+setuptools>=65.0.0
+
+# CLI UI
+typer>=0.21.0
+rich>=13.7.0

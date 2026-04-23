@@ -1,0 +1,48 @@
+{
+  // Continue.dev Extension Configuration
+  // Add this to your VS Code settings.json (Ctrl+Shift+P -> Preferences: Open Settings (JSON))
+  
+  // ============================================
+  // CONTINUE EXTENSION SETTINGS
+  // ============================================
+  
+  "continue.enableContinueOnClick": true,
+  "continue.enableCodeLens": true,
+  
+  // Configure local Ollama model for Continue
+  // Provider: Ollama
+  // Model: qwen2.5-coder:14b
+  // Base URL: http://localhost:11434
+  
+  "continue.serverUrl": "http://localhost:11434",
+  
+  // If Continue has provider settings, use:
+  "continue.modelConfig": {
+    "provider": "ollama",
+    "model": "qwen2.5-coder:14b",
+    "baseUrl": "http://localhost:11434"
+  },
+  
+  // Chat model
+  "[continue].chatModel": "qwen2.5-coder:14b",
+  
+  // Code completion model  
+  "[continue].completionModel": "qwen2.5-coder:14b",
+  
+  // ============================================
+  // OPTIONAL: OTHER RECOMMENDED SETTINGS
+  // ============================================
+  
+  // Pylance settings
+  "python.analysis.typeCheckingMode": "basic",
+  
+  // Editor settings for AI
+  "editor.formatOnSave": false,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.inlineSuggest.enabled": true,
+  
+  // Python
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
+}

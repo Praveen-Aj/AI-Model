@@ -1,0 +1,11 @@
+﻿venv/
+.venv/
+__pycache__/
+logs/
+models/
+vector_db/
+*.log
+*.bin
+*.exe
+*.pyd
+*.safetensors
