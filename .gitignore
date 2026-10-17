@@ -1,22 +1,55 @@
-﻿venv/
+﻿# Python
+venv/
 .venv/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+
+# Logs
 logs/
 *.log
+
+# Database
+data/
+*.db
+*.sqlite
+
+# Models
 models/
-output/
+*.pkl
+*.pt
+*.pth
+
+# Build
 dist/
 build/
 *.exe
 *.jar
 *.bin
-*.pyd
-*.so
-*.db
-*.sqlite
-*.pkl
-*.pt
-*.pth
+
+# Archives
 archive/
 backup/
-*.mp3
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary
+*.tmp
+*.temp
+.cache/
+
+# Environment
+.env
+.env.local
